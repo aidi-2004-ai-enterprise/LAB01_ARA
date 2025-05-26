@@ -6,6 +6,7 @@ import xgboost as xgb
 
 def load_penguins():
 
+
     df = sns.load_dataset("penguins")
     return df.dropna()
 
