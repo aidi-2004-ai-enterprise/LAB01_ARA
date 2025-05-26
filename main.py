@@ -6,7 +6,7 @@ def load_penguins():
     df = sns.load_dataset("penguins")
     return df.dropna()
 
-def split_dataset(df, test_size=0.2, random_state=42):
+def split_dataset(df, test_size=0.2, random_state=45):
     """
     Split the DataFrame into feature matrix X and target y,
     """
