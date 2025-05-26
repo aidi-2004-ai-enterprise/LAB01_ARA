@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 
 def load_penguins():
+
     df = sns.load_dataset("penguins")
     return df.dropna()
 
@@ -34,4 +35,6 @@ def main():
     fit_and_evaluate(model, X_train, X_test, y_train, y_test)
 
 if __name__ == "__main__":
+    main()
+
     main()
