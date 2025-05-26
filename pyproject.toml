@@ -1,0 +1,14 @@
+[project]
+name = "ara-lab01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.0,<3.0",
+  "xgboost>=1.7,<2.0",
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build"
